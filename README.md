@@ -1,0 +1,1 @@
+Hello, here is the calculator I've created. The calculator can be manipulated using both buttons on the calculator itself and the keyboard. When entering an equation you will need to complete the full equation before pressing the equal button in order for it to actually solve. I hope you find this calculator helpful. 
