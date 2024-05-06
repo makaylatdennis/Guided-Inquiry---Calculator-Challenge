@@ -1,0 +1,115 @@
+
+#calculator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+
+
+
+#calculator-content{
+    display: block;
+    height: 40rem;
+    width: 25rem ;
+background-color: pink ;
+border: none;
+border-radius: 2rem;
+
+
+}
+
+.text-box{
+    display: flex;
+    position: relative;
+    width: 20.5rem;
+    height: 2.5rem;
+    top: 4rem;
+    padding-left: 2.5rem;
+
+}
+
+#entrybox{
+    width: 20.5rem;
+    height: 2.5rem;
+    padding-left: 3rem;
+
+}
+
+
+
+
+#number-content{
+    display: grid;
+    height: 30rem;
+    width: 22rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+}
+
+
+.number-box{
+    display: flex;
+    position: relative;
+    height: 30rem;
+    width: 25rem;
+    top: 5rem;
+    align-items: center;
+   justify-content: center;
+  
+}
+
+input{
+    height: 5.25rem;
+    width: 5.25rem;
+    border: .125rem solid rgb(223, 105, 125);
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: rgb(243, 220, 224);
+    cursor: pointer;
+    font-size: large;
+}
+
+.calculatorInput:hover{
+    background-color: rgb(236, 157, 236);
+}
+
+.operator:hover{
+    background-color: rgb(236, 157, 236);
+}
+
+#clear:hover{
+    background-color:  rgb(236, 157, 236) ;
+}
+
+#equals:hover{
+    background-color:  rgb(236, 157, 236) ;
+}
+
+
+@media (max-width: 390px) {
+
+    html {
+
+        font-size: 8px ;
+    }
+
+    .text-box{
+        display: flex;
+        position: relative;
+        width: 20.5rem;
+        height: 2.5rem;
+        top: 4rem;
+        padding-left: 1.90rem;
+    
+    }
+
+    #entrybox{
+        width: 18rem;
+        height: 2.5rem;
+       
+    
+    }
+
+}
